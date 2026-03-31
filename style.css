@@ -1,0 +1,83 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f9;
+  padding: 20px;
+  color: #222;
+}
+
+.sheet-container {
+  max-width: 1800px;
+  margin: auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.sheet-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sheet-header h1 {
+  font-size: 22px;
+  color: #1f3c88;
+}
+
+.sheet-header h2 {
+  font-size: 16px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 1600px;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 6px;
+  font-size: 12px;
+  text-align: center;
+}
+
+thead th {
+  background: #dfe9ff;
+  font-weight: bold;
+}
+
+tfoot td {
+  background: #eef3ff;
+  font-weight: bold;
+}
+
+.name-col, .desg-col {
+  text-align: left;
+}
+
+/* ✅ PDF Button */
+.pdf-btn {
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  background: #1f3c88;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pdf-btn:hover {
+  background: #162d66;
+}
